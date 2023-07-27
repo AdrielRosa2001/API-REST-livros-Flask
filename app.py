@@ -4,6 +4,7 @@ from models import Livro
 
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False
+app.config['JSON_AS_ASCII'] = False
 
 @app.teardown_appcontext
 def shutdown_session(exception=None):
