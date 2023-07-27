@@ -2,7 +2,7 @@
 
 Api REST Básica para cadastros de livros através de novo modo declarativo do SQLAlchemy.
 
-> Adriel Rosa (update 19/08/2022  12:30 PM)
+> Adriel Rosa (update 27/07/2023  18:51 PM)
 ##
 
 ## Funcionalidades:
