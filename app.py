@@ -48,7 +48,7 @@ def delet_livro(id):
     if livro != "" and livro != None:
         db_session.delete(livro)
         db_session.commit()
-        return make_response(jsonify({"Status code": 200, "Messenger": "Deletado com sucesso!", "data": livro}), 200)
+        return make_response(jsonify({"Status code": 200, "Messenger": "Deletado com sucesso!", "data": livro.as_dict()}), 200)
     else:
         return make_response(jsonify({"Status code": 400, "Messenger": "Error ao deletar!", "data": livro}), 400)
 
